@@ -1,6 +1,7 @@
 $gray :  #1a1a1a;
 $blue: #011d4f;
 $white : #fff;
+$gray-l: #ccc;
 
 *{ 
     
@@ -28,6 +29,26 @@ $white : #fff;
         border-radius: 5px;
         background: $white;
         padding-top: 40px;
+        overflow: scroll;
+        
+        input{
+            margin: 2px;
+            border: 1px solid $gray-l;
+            border-radius: 2rem;
+            &:hover{
+               opacity: 1; 
+            }
+            &:active{
+               opacity: 1; 
+            }
+            &:focus{
+               opacity: 1; 
+            }
+        }
+        input[type=text]{
+        padding-left: 20px;
+        }
+        
     }
     
     button{
@@ -71,6 +92,7 @@ $white : #fff;
             padding: 10px 0 10px 0;
             margin: 2px;
             opacity: 0.8;
+            border: 0;
             border-radius: 12rem;
             &:hover{
                opacity: 1; 
