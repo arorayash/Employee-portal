@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TapChief</title>
+
+
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+   
+   <div class="container">
+       <div class="row">
+        <div class="col-xs-10 col-xs-offset-1 head text-center">
+           <h3 class="heading_h">
+               employee portal
+           </h3>
+           <p>- Tapchief Summer Internship assignment -</p>
+        </div>
+       </div>
+   </div>
+   
+    <div class="container">
+        <div class="row items">
+
+       <template id="product-template">
+                    <div class='col-xs-12 col-sm-4 item' data-id={{id}}>
+                    <p>
+                        <strong>Name:</strong>
+                        <span class="noedit name">{{name}}</span>  
+                        <input type="text" class="edit name">  
+                    </p>
+                    <p>
+                        <strong>Description:</strong>
+                        <span class="noedit description">{{description}}</span>  
+                        <input type="text" class="edit description"> 
+                    </p>
+                    <p>
+                        <strong>Price:</strong>
+                        <span class="noedit price">{{price}}</span>  
+                        <input type="number" class="edit price"> 
+                    </p>
+                    <p>
+                        <strong>ID:</strong>{{id}}
+                    </p>
+                    <button data-id='{{id}}' class='remove'>Delete</button>
+                    <button class="editProduct noEdit">Edit</button>
+                    <button class="saveEdit edit">Save</button>
+                    <button class="cancelEdit edit">Cancel</button>
+                    </div>
+       </template>
+       
+        </div>
+        <div class="row addProduct">
+           <h4>Add a product here : </h4>
+           <br>
+            <div class="col-xs-8 col-xs-offset-2">
+                <input id="name" placeholder="Name" type="text"> <br>
+                <input id="description" placeholder="Description"  type="text"> <br>
+                <input id="price" placeholder="Price"  type="text"> <br> <br>
+                <button id="addProduct">Submit</button>
+            </div>
+        </div>
+        <div class="row footer">
+            <div class="col-xs-10 col-xs-offset-1 text-center">
+             © 2016. All Rights Reserved. | <a href="http://arorayash.github.io">Thisisus</a>
+            </div>
+        </div>
+    </div>
+    
+    <script src="bower_components/mustache.js/mustache.min.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
