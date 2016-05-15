@@ -1,29 +1,30 @@
-/* line 7, C:/Users/YashArora/Desktop/tapchief/styles/main.scss */
+/* line 7, C:/Users/YashArora/Documents/GitHub/Employee-portal/styles/main.scss */
 * html, * body {
   display: block;
   background: #011d4f; }
 
-/* line 12, C:/Users/YashArora/Desktop/tapchief/styles/main.scss */
+/* line 12, C:/Users/YashArora/Documents/GitHub/Employee-portal/styles/main.scss */
 * .head {
   padding: 40px 0 40px 0;
   color: #fff; }
 
-/* line 17, C:/Users/YashArora/Desktop/tapchief/styles/main.scss */
+/* line 17, C:/Users/YashArora/Documents/GitHub/Employee-portal/styles/main.scss */
 * .heading_h {
   text-transform: uppercase;
   font-size: 2.5em; }
 
-/* line 22, C:/Users/YashArora/Desktop/tapchief/styles/main.scss */
+/* line 22, C:/Users/YashArora/Documents/GitHub/Employee-portal/styles/main.scss */
 * .item {
   padding: 20px 40px 0px 40px;
   height: 250px;
+  max-height: 100%;
   border: 1px solid #1a1a1a;
   color: #1a1a1a;
   border-radius: 5px;
   background: #fff;
   padding-top: 40px; }
 
-/* line 32, C:/Users/YashArora/Desktop/tapchief/styles/main.scss */
+/* line 33, C:/Users/YashArora/Documents/GitHub/Employee-portal/styles/main.scss */
 * button {
   background: transparent;
   color: #011d4f;
@@ -33,85 +34,85 @@
   border: 0.1rem solid #011d4f;
   border-radius: 12rem;
   transition: all 0.3s; }
-  /* line 41, C:/Users/YashArora/Desktop/tapchief/styles/main.scss */
+  /* line 42, C:/Users/YashArora/Documents/GitHub/Employee-portal/styles/main.scss */
   * button:hover {
     border: 0.1rem solid #1a1a1a;
     background: #011d4f;
     color: #fff; }
 
-/* line 48, C:/Users/YashArora/Desktop/tapchief/styles/main.scss */
+/* line 49, C:/Users/YashArora/Documents/GitHub/Employee-portal/styles/main.scss */
 * .item .edit {
   display: none; }
 
-/* line 52, C:/Users/YashArora/Desktop/tapchief/styles/main.scss */
+/* line 53, C:/Users/YashArora/Documents/GitHub/Employee-portal/styles/main.scss */
 * .item.edit .edit {
   display: initial; }
 
-/* line 56, C:/Users/YashArora/Desktop/tapchief/styles/main.scss */
+/* line 57, C:/Users/YashArora/Documents/GitHub/Employee-portal/styles/main.scss */
 * .item.edit .noedit {
   display: none; }
 
-/* line 60, C:/Users/YashArora/Desktop/tapchief/styles/main.scss */
+/* line 61, C:/Users/YashArora/Documents/GitHub/Employee-portal/styles/main.scss */
 * .addProduct {
   padding: 80px 0 40px 0; }
-  /* line 63, C:/Users/YashArora/Desktop/tapchief/styles/main.scss */
+  /* line 64, C:/Users/YashArora/Documents/GitHub/Employee-portal/styles/main.scss */
   * .addProduct h4 {
     text-align: center;
     color: #fff; }
-  /* line 68, C:/Users/YashArora/Desktop/tapchief/styles/main.scss */
+  /* line 69, C:/Users/YashArora/Documents/GitHub/Employee-portal/styles/main.scss */
   * .addProduct input {
     width: 100%;
     padding: 10px 0 10px 0;
     margin: 2px;
     opacity: 0.8;
     border-radius: 12rem; }
-    /* line 74, C:/Users/YashArora/Desktop/tapchief/styles/main.scss */
+    /* line 75, C:/Users/YashArora/Documents/GitHub/Employee-portal/styles/main.scss */
     * .addProduct input:hover {
       opacity: 1; }
-    /* line 77, C:/Users/YashArora/Desktop/tapchief/styles/main.scss */
+    /* line 78, C:/Users/YashArora/Documents/GitHub/Employee-portal/styles/main.scss */
     * .addProduct input:active {
       opacity: 1; }
-    /* line 80, C:/Users/YashArora/Desktop/tapchief/styles/main.scss */
+    /* line 81, C:/Users/YashArora/Documents/GitHub/Employee-portal/styles/main.scss */
     * .addProduct input:focus {
       opacity: 1; }
-  /* line 84, C:/Users/YashArora/Desktop/tapchief/styles/main.scss */
+  /* line 85, C:/Users/YashArora/Documents/GitHub/Employee-portal/styles/main.scss */
   * .addProduct input[type=text] {
     padding-left: 20px; }
-  /* line 88, C:/Users/YashArora/Desktop/tapchief/styles/main.scss */
+  /* line 89, C:/Users/YashArora/Documents/GitHub/Employee-portal/styles/main.scss */
   * .addProduct button {
     display: block;
     margin: 0 auto;
     color: #fff;
     padding: 1.05rem 2.75rem;
     border: 0.1rem solid #fff; }
-    /* line 94, C:/Users/YashArora/Desktop/tapchief/styles/main.scss */
+    /* line 95, C:/Users/YashArora/Documents/GitHub/Employee-portal/styles/main.scss */
     * .addProduct button:hover {
       color: #011d4f;
       background: #fff; }
 
-/* line 101, C:/Users/YashArora/Desktop/tapchief/styles/main.scss */
+/* line 102, C:/Users/YashArora/Documents/GitHub/Employee-portal/styles/main.scss */
 * .footer {
   padding: 40px 0 20px 0;
   color: #fff; }
 
-/* line 107, C:/Users/YashArora/Desktop/tapchief/styles/main.scss */
+/* line 108, C:/Users/YashArora/Documents/GitHub/Employee-portal/styles/main.scss */
 * ::-webkit-input-placeholder {
   padding-left: 10px;
   color: #1a1a1a; }
 
-/* line 112, C:/Users/YashArora/Desktop/tapchief/styles/main.scss */
+/* line 113, C:/Users/YashArora/Documents/GitHub/Employee-portal/styles/main.scss */
 * :-moz-placeholder {
   /* Firefox 18- */
   padding-left: 10px;
   color: #1a1a1a; }
 
-/* line 117, C:/Users/YashArora/Desktop/tapchief/styles/main.scss */
+/* line 118, C:/Users/YashArora/Documents/GitHub/Employee-portal/styles/main.scss */
 * ::-moz-placeholder {
   /* Firefox 19+ */
   padding-left: 10px;
   color: #1a1a1a; }
 
-/* line 122, C:/Users/YashArora/Desktop/tapchief/styles/main.scss */
+/* line 123, C:/Users/YashArora/Documents/GitHub/Employee-portal/styles/main.scss */
 * :-ms-input-placeholder {
   padding-left: 10px;
   color: #1a1a1a; }

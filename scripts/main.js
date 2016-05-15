@@ -66,7 +66,7 @@ $(function(){
         $product_edit.find('input.name').val( $product_edit.find('span.name').html() );
         $product_edit.find('input.description').val( $product_edit.find('span.description').html() );
         $product_edit.find('input.price').val( $product_edit.find('span.price').html() );
-        $product_edit.addClass('edit');
+        $(this).closest(".item").addClass('edit');
         
     });
     
